@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "910496825649",
+    "project_id": "dcaiza-e1b38",
+    "storage_bucket": "dcaiza-e1b38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910496825649:android:1c94924eb6657079337010",
+        "android_client_info": {
+          "package_name": "com.example.examen_2do_parcial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910496825649-7rqmrddrkdqin381f8rkb3sff2rf78ir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examen_2do_parcial",
+            "certificate_hash": "3ef7498b3cc30e5ec3e79122a342b878544a4955"
+          }
+        },
+        {
+          "client_id": "910496825649-i0s2fp9ijkj6geqa7km5ol5p1hvpan5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFdK-Ghy9IzhmsbcG3CU01Lf4iNHeg-jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910496825649-i0s2fp9ijkj6geqa7km5ol5p1hvpan5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
