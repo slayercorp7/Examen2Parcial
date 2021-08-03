@@ -1,4 +1,4 @@
-import 'package:examen_2do_parcial/BLOC/Bloc_user.dart';
+import 'package:examen_2do_parcial/BLOC/bloc_user.dart';
 import 'package:examen_2do_parcial/UI/SCREEN/inicio.dart';
 import 'package:examen_2do_parcial/UI/WIDGET/google_boton.dart';
 import 'package:examen_2do_parcial/UI/WIDGET/gradiente.dart';
@@ -6,9 +6,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
-class screenPass extends StatelessWidget {
+class ScreenPass extends StatelessWidget {
   @override
-  late bloc_user userBloc;
+  late BlocUser userBloc;
   final _controllerUsername = TextEditingController();
   final _controllerHobbies = TextEditingController();
   @override

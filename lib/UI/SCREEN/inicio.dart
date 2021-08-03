@@ -1,10 +1,5 @@
-import 'package:examen_2do_parcial/BLOC/Bloc_user.dart';
-import 'package:examen_2do_parcial/UI/WIDGET/gradiente.dart';
+import 'package:examen_2do_parcial/UI/WIDGET/iconos.dart';
 import 'package:flutter/material.dart';
-import 'package:examen_2do_parcial/UI/WIDGET/textinput.dart';
-import 'package:examen_2do_parcial/UI/WIDGET/google_boton.dart';
-import 'package:generic_bloc_provider/generic_bloc_provider.dart';
-import 'screen_pass.dart';
 
 class Inicio extends StatelessWidget {
   @override
@@ -97,42 +92,24 @@ class Inicio extends StatelessWidget {
               Column(
                 children: [
                   Container(
-                    width: 60,
-                    height: 60,
-                    margin: EdgeInsets.only(top: 550, left: 70),
-                    child: Expanded(
-                        child: Image(
-                      image: AssetImage("assets/img/image4.png"),
-                      fit: BoxFit.cover,
-                    )),
+                    child: Iconos(
+                        path: "assets/img/image4.png", top: 550, left: 45),
                   )
                 ],
               ),
               Column(
                 children: [
                   Container(
-                    width: 60,
-                    height: 60,
-                    margin: EdgeInsets.only(top: 550, left: 40),
-                    child: Expanded(
-                        child: Image(
-                      image: AssetImage("assets/img/img6.png"),
-                      fit: BoxFit.cover,
-                    )),
+                    child:
+                        Iconos(path: "assets/img/img6.png", top: 550, left: 55),
                   )
                 ],
               ),
               Column(
                 children: [
                   Container(
-                    width: 60,
-                    height: 110,
-                    margin: EdgeInsets.only(top: 535, left: 40),
-                    child: Expanded(
-                        child: Image(
-                      image: AssetImage("assets/img/img7.png"),
-                      fit: BoxFit.cover,
-                    )),
+                    child:
+                        Iconos(path: "assets/img/img7.png", top: 550, left: 60),
                   )
                 ],
               )
@@ -140,106 +117,6 @@ class Inicio extends StatelessWidget {
           ),
         ],
       ),
-
-      /*Row(
-            children: <Widget>[
-              Container(
-                  width: 250,
-                  height: 40,
-                  margin: EdgeInsets.only(top: 340, left: 60),
-                  child: TextInput(
-                      hint: "name",
-                      inputType: TextInputType.name,
-                      controller: TextEditingController(),
-                      hintText: "name"))
-            ],
-          ),
-          Row(
-            children: <Widget>[
-              Container(
-                  width: 250,
-                  height: 40,
-                  margin: EdgeInsets.only(top: 390, left: 60),
-                  child: TextInput(
-                      hint: "pass",
-                      inputType: TextInputType.text,
-                      controller: TextEditingController(),
-                      hintText: "pass"))
-            ],
-          ),
-          Row(
-            children: [
-              Container(
-                  width: 250,
-                  height: 80,
-                  margin: EdgeInsets.only(top: 430, left: 60),
-                  alignment: Alignment.topCenter,
-                  child: GoogleBtn(
-                      heightC: 20.0,
-                      widhtC: 80.0,
-                      onPressed: () => screenPass(),
-                      text: "login"))
-            ],
-          ),
-          Row(
-            children: [
-              Container(
-                width: 250,
-                height: 100,
-                margin: EdgeInsets.only(top: 510, left: 60),
-                alignment: Alignment.topCenter,
-                child: Text(
-                  "login with",
-                  textAlign: TextAlign.right,
-                ),
-              )
-            ],
-          ),
-          Row(
-            children: [
-              Column(
-                children: [
-                  Container(
-                    width: 60,
-                    height: 60,
-                    margin: EdgeInsets.only(top: 550, left: 110),
-                    child: Image(
-                      image: AssetImage("assets/img/image1.jpg"),
-                      fit: BoxFit.cover,
-                    ),
-                  )
-                ],
-              ),
-              Column(
-                children: [
-                  Container(
-                    width: 60,
-                    height: 60,
-                    margin: EdgeInsets.only(top: 550, left: 40),
-                    child: Image(
-                      image: AssetImage("assets/img/image2.jpg"),
-                    ),
-                  )
-                ],
-              )
-            ],
-          ),
-          Row(
-            children: [
-              Column(
-                children: [
-                  Container(
-                    margin: EdgeInsets.only(top: 700, left: 120),
-                    child: Text("terms of service",
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.black54,
-                        )),
-                  )
-                ],
-              ),
-            ],
-          )*/
     );
   }
 }

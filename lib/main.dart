@@ -1,7 +1,7 @@
+import 'package:examen_2do_parcial/BLOC/bloc_user.dart';
 import 'package:examen_2do_parcial/UI/SCREEN/screen_pass.dart';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
-import 'BLOC/Bloc_user.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
@@ -10,6 +10,7 @@ void main() async {
   runApp(MyApp());
 }
 
+// ignore: use_key_in_widget_constructors
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -24,8 +25,8 @@ class MyApp extends StatelessWidget {
           ),
 
           // home: Profile(),
-          home: screenPass(),
+          home: ScreenPass(),
         ),
-        bloc: bloc_user());
+        bloc: BlocUser());
   }
 }
